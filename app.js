@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors")
-const { apiKeyMiddleware } = require("./middlewares/apiKey");
+// const { apiKeyMiddleware } = require("./middlewares/apiKey");
 const { dbConnect } = require("./config/dbConnect");
 
 const userProfileRouter=require("./routes/user.profile.routes.js");
@@ -11,9 +11,9 @@ const adminAuthRouter = require("./routes/admin.auth.routes.js");
 // const storeEshopRouter = require("./routes/store-eshop.routes.js")
 // const storeKhwRouter = require("./routes/store-khw.routes.js");
 
-const eshopCustomizationRoutes=require("./routes/eshop-customization.routes.js");
-const commonCustomizationRoutes= require("./routes/common-customization.routes.js");
-const khwaahishCustomizationRoutes= require("./routes/khw-customization.routes.js");
+// const eshopCustomizationRoutes=require("./routes/eshop-customization.routes.js");
+// const commonCustomizationRoutes= require("./routes/common-customization.routes.js");
+// const khwaahishCustomizationRoutes= require("./routes/khw-customization.routes.js");
 
 
 const errorMiddleware = require("./middlewares/error.js");
@@ -21,10 +21,10 @@ const cookieParser = require("cookie-parser");
 const bcrypt = require("bcryptjs");
 const User = require("./models/user.model");
 const path=require("path");
-const { sendOTPViaEmail } = require("./services/otpService.js");
+// const { sendOTPViaEmail } = require("./services/otpService.js");
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+// const PORT = process.env.PORT || 3000;
 // const ALLOWED_ORIGINS = process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(",") : [];
 
 // database and redis
@@ -90,11 +90,11 @@ app.use("/admin/auth", adminAuthRouter);
 
 
 // Customization
-app.use("/eshop/customization/",eshopCustomizationRoutes);
-app.use("/common/customization/", commonCustomizationRoutes);
+// app.use("/eshop/customization/",eshopCustomizationRoutes);
+// app.use("/common/customization/", commonCustomizationRoutes);
 
 // Customization khwaahish 
-app.use("/khwaahish/customization/homepage",khwaahishCustomizationRoutes);
+// app.use("/khwaahish/customization/homepage",khwaahishCustomizationRoutes);
 
 // Not Found Route & Error Middleware 
 app.use("*",(req, res, next) => {
