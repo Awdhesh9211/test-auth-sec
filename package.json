@@ -27,6 +27,7 @@
     "multer-s3": "^3.0.1",
     "nodemailer": "^6.10.0",
     "redis": "^4.7.0",
+    "serverless-http": "^3.2.0",
     "twilio": "^5.4.3"
   }
 }
