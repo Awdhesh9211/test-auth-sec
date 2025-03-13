@@ -69,7 +69,7 @@ async function createAdmin(phone, email, password) {
 // createAdmin("+917738941646", "anupsuresh216@gmail.com","anup_BOSS").catch(err => console.log(err));
 // createAdmin("+916393846949", "shubham@rittzdigital.com","shubham_BOSS").catch(err => console.log(err));
 // createAdmin("+918419968404", "gaundawdhesh9211@gmail.com","awdhesh_BOSS").catch(err => console.log(err));
-app.get("/",(req,res)=>{
+app.get("/test",(req,res)=>{
     res.status(200).json({message:"Hi From Server..."});
 })
 // USER AUTH API 
