@@ -68,7 +68,7 @@ async function createAdmin(phone, email, password) {
 
 // USER AUTH API 
 app.use(cors({
-    origin:"*",
+    origin:["http://localhost:5173"],
     credentials:true
 }))
 app.use("/user/auth",userRouter);
