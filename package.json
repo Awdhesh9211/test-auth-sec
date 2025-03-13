@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "node api/index.js",
     "start": "node api/index.js",
     "vercel-build": "vercel build",
-    "deploy": "vercel --prod"
+    "deploy": "vercel"
   },
   "keywords": [],
   "author": "",
@@ -24,6 +25,7 @@
     "nodemailer": "^6.10.0",
     "redis": "^4.7.0",
     "serverless-http": "^3.2.0",
-    "twilio": "^5.4.3"
+    "twilio": "^5.4.3",
+    "vercel": "^41.4.0"
   }
 }
