@@ -1,0 +1,162 @@
+[{
+  "_id": {
+    "$oid": "676d613006b5f7cdd9972966"
+  },
+  "name": "Awdhesh",
+  "email": "awdhesh@gmail.com",
+  "password": "$2a$10$DmvnCqdLnrmqTL2j2xdA4uKmOdDiCJgOUm7fq6MuBrQPnzqH/jJcC",
+  "roles": [
+    "Admin"
+  ],
+  "createdAt": {
+    "$date": "2024-12-26T13:59:12.976Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-26T13:59:12.976Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676d66448a1fac5255eda7b0"
+  },
+  "name": "Ankit",
+  "email": "ankit@gmail.com",
+  "password": "$2a$10$m.xhqHgFhkJCGWqyoNtZ2u4RwRNW1D9opgnnt20uFzKpE9lH47fkK",
+  "roles": [
+    "Customer"
+  ],
+  "createdAt": {
+    "$date": "2024-12-26T14:20:52.624Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-26T14:20:52.624Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676f7e4529aa5c1499de5d93"
+  },
+  "name": "Golu",
+  "email": "gaundawdhesh9211@gmail.com",
+  "password": "$2a$10$PnnA7.Cnw03v0Sf1FkdOS.yDB0DzBCaCaqX3B/XH3m2lH5uJGVFIy",
+  "roles": [
+    "Customer"
+  ],
+  "createdAt": {
+    "$date": "2024-12-28T04:27:49.043Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-28T04:27:49.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676f81da2bec5e17c06c3712"
+  },
+  "name": "One",
+  "email": "one@gmail.com",
+  "password": "$2a$10$PBdptfG/ANJzrreS3gTEp.hR5WD9DugJ/bzG882aytuK2E1tKWvMS",
+  "roles": [
+    "Customer"
+  ],
+  "createdAt": {
+    "$date": "2024-12-28T04:43:06.298Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-28T04:43:06.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676f82783b6f13aa808ca7bb"
+  },
+  "name": "Two",
+  "email": "two@gmail.com",
+  "password": "$2a$10$zwdFC41PzCfwBTbCkIl0YO1bvDL65y24BfFViJcPD7LW1Bl7RkYaS",
+  "roles": [
+    "Customer"
+  ],
+  "createdAt": {
+    "$date": "2024-12-28T04:45:44.221Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-28T04:45:44.221Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676f82d49d02fa63383a6832"
+  },
+  "name": "Three",
+  "email": "three@gmail.com",
+  "password": "$2a$10$qNmxdZnRK89j40od9WGEJedjVk6IKCu8dKSbNIuk7Qz9riug1kn0S",
+  "roles": [
+    "Customer"
+  ],
+  "createdAt": {
+    "$date": "2024-12-28T04:47:16.197Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-28T04:47:16.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676f892654acf2a5c6b3a6de"
+  },
+  "name": "four",
+  "email": "four@gmail.com",
+  "password": "$2a$10$m24jAsbHBrxZvq2.LDVAC.kTM9c530JbG1OAKzAam47/fDCj9ZWbm",
+  "roles": [
+    "Admin"
+  ],
+  "createdAt": {
+    "$date": "2024-12-28T05:14:14.264Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-28T05:14:14.264Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676fafe119b08131738c61c6"
+  },
+  "name": "Admin",
+  "email": "admin@gmail.com",
+  "password": "$2a$10$lL.QhJLMky75Y2S/WOcbCeAHuXWdJWEoJc0x0/PkfHo0f454TzXuq",
+  "roles": [
+    "Admin"
+  ],
+  "createdAt": {
+    "$date": "2024-12-28T07:59:29.032Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-28T07:59:29.032Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "676fb21019b08131738c61ed"
+  },
+  "name": "Golu",
+  "email": "g@gmail.com",
+  "password": "$2a$10$kcK/SLLAsSUPCeK2XW10xOO.ihahKhIHkulhbBMPHPGkaGC4TOGte",
+  "roles": [
+    "Customer"
+  ],
+  "createdAt": {
+    "$date": "2024-12-28T08:08:48.433Z"
+  },
+  "updatedAt": {
+    "$date": "2024-12-28T08:08:48.433Z"
+  },
+  "__v": 0
+}]
